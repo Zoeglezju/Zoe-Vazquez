@@ -1,0 +1,92 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: century gothic;
+	color: rgb(1, 11, 20);
+	text-decoration: none;
+	text-align: center;
+}
+.titulo {
+	padding:40px;
+
+}
+
+nav ul {
+	width: 80%;
+	margin: auto;
+	border-radius: 10px;
+	list-style-type: none;
+	background: linear-gradient(to left, #7ea1e0, #7ec1e0);
+}
+
+
+nav li {
+	display: inline-flex;
+}
+nav a {
+	padding: 20px;
+	width: 150px;
+}
+nav ul a:hover {
+	background-color: rgb(173, 9, 9);
+}
+
+.contenido {
+	display: flex;
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
+}
+.contenido .articulo {
+	width: 80%;
+	margin: auto;
+}
+.contenido .articulo div {
+	width: 100%;
+	padding: 15px;
+	background-color: #54b3eb;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+.contenido .articulo img {
+	width: 200px;
+	border-radius: 10dpx;
+}
+.contenido .secundario {
+	width: 30%;
+}
+.contenido .secundario p {
+	background-color: #8da4f0;
+	border-radius: 40px;
+	padding: 40px;
+	height: 700px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.content {
+    width: 45%;
+    margin-right: 10px;
+}
+
+.image {
+    width: 45%;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.piedepagina {
+	background: linear-gradient(to right, #74c9fa, #7ea1e0);
+	margin-top: 50px;
+}
+.piedepagina p {
+	padding: 90px;
+}
